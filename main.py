@@ -13,7 +13,23 @@
 
 #Functions that allow for input
 
-def greet_with_name(name):
-  print(f"Hello{name}")
-  print(f"How do you do {name}?")
-greet_with_name("Angela")
+# def greet_with_name(name):
+#   print(f"Hello {name}")
+#   print(f"How do you do {name}?")
+# greet_with_name("Apollo")
+
+##you are calling the function on line 19, but you can modify it by changing the input. 
+
+## when we call this function name is the paramater
+#the PARAMETER is the name of the data that that is being passed in
+
+# The argument is the actual data 
+
+########FUNCTIONS WITH MORE THAN ONE INPUT#####
+
+def greet_with(name, location):
+  print(f"Hello {name}")
+  print(f"What is it like in {location}? ")
+greet_with("Apollo", "New York")
+
+###when you call it on line 33 greet_with it goes by position. So if you did Nowhere, Jack, it would not make sense. 
